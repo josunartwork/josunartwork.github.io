@@ -6,67 +6,63 @@
 
   <meta charset="utf-8">
 
-  <title></title>
+  <title>21043147</title>
 
  <style>
  *{
 
  }
-   body{
+   body
+{
 margin: 0px auto;
 padding: 10px 20px;
 max-width: 800px;
-font-family: helvetica;
+font-family: "Nanum gothic" "appleGothic" "Malgun Gothic" "Sans-serif";
 margin: 0 auto;
       background: pink;
-   }
+}
    
- h1{
-   font-family: serif;
+ h1
+{
+   font-family: "Nanum gothic" "appleGothic" "Malgun Gothic" "Sans-serif";
  font-size: 40px;
  color: red;
 margin: 20px auto;
 text-align: center;
-text-transform: capitalize;
-   
- } 
-   
- img{
-
-width: 100%;
-
+text-transform: capitalize; 
 } 
    
-ul{
+ img
+{
+width: 100%;
+} 
+   
+ul
+{
 padding-left: 0px;
 list-style-type: none;
 }
    
-li{
-box-shadow: 3px 6px 6px ;
+li
+{
+box-shadow: 5px 7px 8px ;
 width: 31%;
 float: left;
 margin: 1.5% 1.5% 1.5% 0.1%;
-background-color: white;
-  
+background-color: white; 
 }
-p{
+p
+{
 font-size: 12pt;
 margin-right : 5px;
-
-
-
 }
 
-h3{
+h3
+{
   text-align: center;
 font-size: 90%;
 margin: 0px 5px 0px;
 }
- 
-
-
-
  </style>
   </head>
 
