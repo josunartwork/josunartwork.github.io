@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+    
+    body
+    {
+      font-family:sans-serif;
+      line-height: 1.8;
+    }
+    .전체
+    {
+      max-width:600px
+    }
+    
+    h1
+    {
+     text-align: right; 
+     
+    }
+  h3
+    {
+      text-align: right;
+    }
+   
+  h2
+    {
+      padding: 5px;
+      color: blue; 
+      border-bottom: 4px solid;
+    }
+    
+    .노란색
+    {
+      background-color: yellow;
+    }
+    
+   .박스
+    {
+      background-color:rgb(200,200,200);
+      border: 1px solid;
+      border-radius: 3px;
+ 
+    }
+    
+    .마지막
+    {
+      border-top:1px solid;
+    }
+    .땡땡
+    {
+      list-style-type: none;
+        }
+    .어려워   
+    {
+      border-left: 3px solid;
+      margin:10px;
+      font-size: 80%;
+    }
+    .부제
+    {
+      padding: 10px;
+    }
+    
+    table
+    {
+      text-align: center;
+      background-color: rgb(220,220,220);
+      box-shadow: 1px 1px 3px gray;
+          }
+    
+    .사진1
+    {
+      float: right;
+      width: 110px;
+      height: 160px;
+    }
+    
+      
+  </style>
+</head>
+
+  
+  
+  <body>
+  
+
+  <div class="전체">
+  <h1>중간고사</h1>
+    
+   <h3>이희재</h3>
+    
+    <div class="본문1">
+<h2>HTML이란?</h2>
+    <p>HTML은 <strong class="노란색">하이퍼텍스트 마크업 언어(Hypertext Markup Language)</strong>의 약자로, 웹페이지를 만들 때 사용되는 문서 형식입니다.</p>
+  <p>하이퍼텍스트(Hypertext)란 하이퍼링크 (Hyperlink)를 담고 있는 문서를 뜻합니다.하이퍼링크는 문서들이 서로 연결되어 있는 고리를 말합니다.</p>
+    </div>
+  
+    <h2>CSS란?</h2>
+  <p>CSS는 Cascading Stylesheet의 약자이며 HTML 같은 마크업 언어로 작성된 문서를 꾸미기 위해 사용합니다. HTML문서의 <span class="박스">head</span>요소 안에 <span class="박스">style</span> 요소를 널고 CSS코드를 적으면 해당문서를 다양하게 꾸밀 수 있습니다.</p>
+  
+    <p>CSS에 대한 더 자세한 설명은 <a href="#">CSS</a>문서를 참고하세요.</p>
+  
+  <h2>표만들기</h2>
+    <p>표를 만들려면 <span class="박스">table</span> 요소를 사욥합니다.</p>
+  <table>
+    <thead>
+      <tr>
+      <th>음료</th>
+      <th>가격</th>
+      <th>알콜</th>
+    </thead>
+        
+          <tbody>
+            <tr>
+            <td>아메리카노</td>
+            <td>2,000</td>
+        <td>X</td>
+            <tr>
+              <td>카페모카</td>
+              <td>2,500</td>
+              <td>X</td>
+              <tr>
+                <td>맥주</td>
+                <td>3,000</td>
+                <td>Y</td>
+                </tbody>
+         
+    </table>
+          
+    <h2>중첩된 목록</h2>
+  <p>목록 요소 안에 또 다른 목록 요소를 중첩하여 사용할 수 있습니다.</p>
+ <ol>
+   <li class="부제"><strong>홍길동</strong></li>
+    <ul class="땡땡">      
+   <li class="어려워">지각 없음</li>
+   <li class="어려워">결석없음</li>
+   <li class="어려워">과제 만점</li>
+    </ul>
+   <li class="부제"><strong>이몽룡</strong></li>
+   <ul class="땡땡">
+   <li class="어려워">지각 2회</li>
+   <li class="어려워">결석 없음</li>
+   <li class="어려워">과제 만점</li>
+   </ul>
+     </ol>
+  
+  <h2>이미지 넣기</h2> 
+   <img class="사진1" src="http://kaywonsad.appspot.com/s/art01.jpg" alt="사진1">
+    <p>이미지를 넣으려면 <span class="박스">img</span> 요소를 사용합니다.</p>
+           
+    <p><span class="박스">src</span> 속성에는 이미지의 경로(URL)를 적습니다.</p>
+ <p>이미지 요소에는 항상 alt 속성을 사용하여 대체 텍스트를 명시해주어야 합니다."alt"는 "alternative text"dml 약자로, 이미지를 표시 할 수 없을 때 이미지를 대신하여 나타낼 텍스트를 뜻합니다.</p>
+  
+    <h2>블럭 요소</h2> 
+  <p>다음은 HTML에서 자주 사용되는 요소들입니다.</p>
+  <ol>
+    <li><strong class="노란색">P</strong>:단락(Paragraph)</li>
+    <li><strong class="노란색">h1</strong>:큰제목(Heading 1)</li>
+ <li><strong class="노란색">ul</strong>:순서 없는 목록(unorderedList)</li>
+ <li><strong class="노란색">ol</strong>:순서 있는 목록(Ordered List)</li>
+ <li><strong class="노란색">table</strong>:표(table)</li>
+    </ol>
+    <span class="마지막">2014년 10월 14일 중간고사, 이희재 작성</span>
+    </div>
+  
+</body>
+</html>
